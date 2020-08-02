@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li><a class="nav-button" href="register">Register</a></li>
+        </ul>
+    </div>
+    <h1>Account Login</h1>
+    <form id="login" class="login">
+        <div class="row">
+            <label for="username">Username</label>
+            <div>
+                <input type="text" id="username" name="username" required autofocus>
+            </div>
+        </div>
+        <div class="row">
+            <label for="password">Password</label>
+            <div class="input-with-icon">
+                <input type="password" id="password" name="password" required>
+                <span class="inputIcon showPassword" id="togglePassword"></span>
+            </div>
+            <div class='link'>
+                <a href="#">Forgot password?</a>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Login">
+        </div>
+    </form>
+    <script src='index.js'></script>
+</body>
+
+</html>

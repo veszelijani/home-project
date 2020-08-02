@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    color: #666;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    background-color: #eeeeee;
+}
+
+body {
+    background-color: white;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 15%;
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 50px 0px 10px 0
+}
+
+.row {
+    font-size: 10pt;
+}
+
+input[type='text'], input[type='password'], input[type='password-confirm'], input[type='email'] {
+    height: 50px;
+    width: 80%;
+    font-size: 20pt;
+    margin: 20px 0;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+#togglePassword {
+    background-size: contain;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
+.hidePassword {
+    background: no-repeat url('./img/hide_password.png');
+}
+
+.showPassword {
+    background: no-repeat url('./img/show_password.png');
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.inputIcon {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    cursor: pointer;
+    margin-right: 20%;
+}
+
+input[type='text']:focus, input[type='password']:valid {
+    border-color: green;
+}
+
+input[type='password']:invalid {
+    border-color: red;
+}
+
+input[type='submit'] {
+    border-radius: 10px;
+    background-color: rgb(86, 81, 231);
+    height: 55px;
+    width: 120px;
+    cursor: pointer;
+    margin: 70px 0;
+    color: white;
+}
+
+h1, .row {
+    text-align: left;
+    margin-left: 15%;
+}
+
+.link {
+    text-align: right;
+    margin-right: 20%;
+    font-size: 10pt;
+}
+
+a {
+    text-decoration: none;
+}
+li, ul{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    background-color: rgb(86, 81, 231);
+    color: #ffffff;
+}
+.nav-button{
+    color: #ffffff;
+}
+
+li {
+    align-content: flex-end;
+}

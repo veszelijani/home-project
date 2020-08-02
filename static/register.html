@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li><a class="nav-button" href="/">Login</a></li>
+        </ul>
+    </div>
+    <h1>Account Register</h1>
+    <form id="register" class="register" method="POST">
+        <div class="row">
+            <label for="username">Username</label>
+            <div>
+                <input type="text" id="username" name="username" required autofocus>
+            </div>
+            <label for="email">Email</label>
+            <div>
+                <input type="email" id="email" name="email" required autofocus>
+            </div>
+        </div>
+        <div class="row">
+            <label for="password">Password</label>
+            <div class="input-with-icon">
+                <input type="password" id="password" name="password" required>
+            </div>
+            <label for="password-confirm">Confirm Password</label>
+            <div class="input-with-icon">
+                <input type="password" id="password-confirm" name="password" required>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Register">
+        </div>
+    </form>
+    <script src='index.js'></script>
+</body>
+
+</html>
